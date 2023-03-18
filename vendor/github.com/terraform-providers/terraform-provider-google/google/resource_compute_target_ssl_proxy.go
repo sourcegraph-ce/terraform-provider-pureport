@@ -16,7 +16,7 @@ package google
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 	"strconv"
 	"time"

@@ -3,7 +3,7 @@ package google
 import (
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"regexp"
 	"strconv"
 	"strings"

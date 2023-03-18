@@ -3,7 +3,7 @@ package notificationhub
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strconv"
 	"time"
 

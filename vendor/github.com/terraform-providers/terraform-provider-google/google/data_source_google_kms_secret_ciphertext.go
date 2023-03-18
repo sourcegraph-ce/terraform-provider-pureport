@@ -6,7 +6,7 @@ import (
 	"encoding/base64"
 	"fmt"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 )
 

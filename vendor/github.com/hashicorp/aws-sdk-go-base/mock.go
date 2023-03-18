@@ -3,7 +3,7 @@ package awsbase
 import (
 	"bytes"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"net/http/httptest"
 	"os"

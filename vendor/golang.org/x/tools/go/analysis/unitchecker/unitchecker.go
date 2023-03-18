@@ -39,7 +39,7 @@ import (
 	"go/types"
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"path/filepath"
 	"reflect"

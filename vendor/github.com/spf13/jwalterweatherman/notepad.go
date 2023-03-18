@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 type Threshold int

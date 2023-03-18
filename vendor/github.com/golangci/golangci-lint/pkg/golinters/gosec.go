@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"go/token"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strconv"
 	"sync"
 

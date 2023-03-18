@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
 	"google.golang.org/api/storagetransfer/v1"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 	"time"
 )

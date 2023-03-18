@@ -2,7 +2,7 @@ package automation
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/services/automation/mgmt/2015-10-31/automation"

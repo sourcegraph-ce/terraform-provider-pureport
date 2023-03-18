@@ -2,7 +2,7 @@ package batch
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/services/batch/mgmt/2018-12-01/batch"

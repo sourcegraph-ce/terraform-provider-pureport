@@ -2,7 +2,7 @@ package resource
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/terraform-providers/terraform-provider-azurerm/azurerm/helpers/azure"

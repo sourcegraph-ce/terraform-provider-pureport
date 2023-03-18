@@ -3358,7 +3358,7 @@ var stdlib = map[string]map[string]bool{
 		"TempFile":  true,
 		"WriteFile": true,
 	},
-	"log": map[string]bool{
+	log "github.com/sourcegraph-ce/logrus": map[string]bool{
 		"Fatal":         true,
 		"Fatalf":        true,
 		"Fatalln":       true,

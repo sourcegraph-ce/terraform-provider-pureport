@@ -2,7 +2,7 @@ package aws
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 
 	"github.com/aws/aws-sdk-go/aws"

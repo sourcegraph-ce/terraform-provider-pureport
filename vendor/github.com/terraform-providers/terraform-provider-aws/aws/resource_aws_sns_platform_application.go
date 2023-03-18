@@ -3,7 +3,7 @@ package aws
 import (
 	"crypto/sha256"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 	"time"
 

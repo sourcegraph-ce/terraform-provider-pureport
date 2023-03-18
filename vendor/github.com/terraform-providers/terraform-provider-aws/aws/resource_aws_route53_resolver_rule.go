@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/terraform-providers/terraform-provider-aws/aws/internal/keyvaluetags"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/hashcode"
