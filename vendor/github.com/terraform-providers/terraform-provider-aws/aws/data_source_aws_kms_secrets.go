@@ -3,7 +3,7 @@ package aws
 import (
 	"encoding/base64"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"

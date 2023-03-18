@@ -2,7 +2,7 @@ package storage
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/Azure/azure-sdk-for-go/services/storage/mgmt/2019-04-01/storage"

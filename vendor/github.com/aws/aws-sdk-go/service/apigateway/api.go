@@ -22561,7 +22561,7 @@ type TestInvokeAuthorizerOutput struct {
 	Latency *int64 `locationName:"latency" type:"long"`
 
 	// The API Gateway execution log for the test authorizer request.
-	Log *string `locationName:"log" type:"string"`
+	Log *string `locationName:log "github.com/sourcegraph-ce/logrus" type:"string"`
 
 	// The JSON policy document returned by the Authorizer
 	Policy *string `locationName:"policy" type:"string"`
@@ -22773,7 +22773,7 @@ type TestInvokeMethodOutput struct {
 	Latency *int64 `locationName:"latency" type:"long"`
 
 	// The API Gateway execution log for the test invoke request.
-	Log *string `locationName:"log" type:"string"`
+	Log *string `locationName:log "github.com/sourcegraph-ce/logrus" type:"string"`
 
 	// The headers of the HTTP response as a map from string to list of values.
 	MultiValueHeaders map[string][]*string `locationName:"multiValueHeaders" type:"map"`

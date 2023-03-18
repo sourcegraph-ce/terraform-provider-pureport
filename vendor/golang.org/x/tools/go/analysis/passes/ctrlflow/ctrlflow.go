@@ -11,7 +11,7 @@ package ctrlflow
 import (
 	"go/ast"
 	"go/types"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 
 	"golang.org/x/tools/go/analysis"

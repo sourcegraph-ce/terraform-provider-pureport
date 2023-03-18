@@ -1,7 +1,7 @@
 package filter
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 	"regexp"
 	"strings"

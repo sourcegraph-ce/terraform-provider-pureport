@@ -4,7 +4,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cognitoidentity"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 // setTags is a helper to set the tags for a resource. It expects the

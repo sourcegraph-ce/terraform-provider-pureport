@@ -3,7 +3,7 @@ package google
 import (
 	"fmt"
 	"github.com/hashicorp/terraform-plugin-sdk/terraform"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func resourceContainerNodePoolMigrateState(v int, is *terraform.InstanceState, meta interface{}) (*terraform.InstanceState, error) {

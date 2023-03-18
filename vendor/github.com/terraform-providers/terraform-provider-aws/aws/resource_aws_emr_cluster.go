@@ -2,7 +2,7 @@ package aws
 
 import (
 	"bytes"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"encoding/json"
 	"fmt"

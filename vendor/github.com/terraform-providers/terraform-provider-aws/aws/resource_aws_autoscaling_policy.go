@@ -3,7 +3,7 @@ package aws
 import (
 	"bytes"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/aws/aws-sdk-go/aws"

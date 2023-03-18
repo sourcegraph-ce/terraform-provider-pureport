@@ -1,7 +1,7 @@
 package awsbase
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 )
 

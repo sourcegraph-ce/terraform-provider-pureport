@@ -25,7 +25,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"path/filepath"
 	"reflect"

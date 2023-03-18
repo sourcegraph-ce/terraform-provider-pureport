@@ -8,7 +8,7 @@ package logging
 import (
 	"bytes"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"syscall"
 )
 

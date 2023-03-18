@@ -3,7 +3,7 @@ package google
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"sync"
 	"time"
 

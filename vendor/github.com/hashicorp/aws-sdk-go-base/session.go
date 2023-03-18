@@ -3,7 +3,7 @@ package awsbase
 import (
 	"crypto/tls"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 
 	"github.com/aws/aws-sdk-go/aws"

@@ -2,7 +2,7 @@ package provider
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/Azure/azure-sdk-for-go/profiles/2017-03-09/resources/mgmt/resources"
 	"github.com/hashicorp/go-azure-helpers/resourceproviders"

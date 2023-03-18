@@ -10,7 +10,7 @@ package unreachable
 import (
 	"go/ast"
 	"go/token"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

@@ -2,7 +2,7 @@ package google
 
 import (
 	"google.golang.org/api/googleapi"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 )
 

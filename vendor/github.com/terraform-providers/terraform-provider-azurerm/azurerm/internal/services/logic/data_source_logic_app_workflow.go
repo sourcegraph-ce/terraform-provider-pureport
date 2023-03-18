@@ -2,7 +2,7 @@ package logic
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/services/logic/mgmt/2016-06-01/logic"

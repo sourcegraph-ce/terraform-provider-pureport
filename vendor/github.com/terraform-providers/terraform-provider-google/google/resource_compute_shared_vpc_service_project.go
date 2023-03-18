@@ -6,7 +6,7 @@ import (
 
 	computeBeta "google.golang.org/api/compute/v0.beta"
 
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	"google.golang.org/api/googleapi"

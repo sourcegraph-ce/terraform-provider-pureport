@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/xml"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net"
 	"regexp"
 	"sort"
