@@ -21,7 +21,7 @@ import (
 	"go/build"
 	"go/token"
 	"go/types"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"path"
 	"reflect"

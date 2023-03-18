@@ -1,7 +1,7 @@
 package commands
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 
 	"github.com/fatih/color"

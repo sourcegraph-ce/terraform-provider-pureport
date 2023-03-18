@@ -2,7 +2,7 @@ package google
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"
 	sqladmin "google.golang.org/api/sqladmin/v1beta4"

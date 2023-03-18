@@ -2,7 +2,7 @@ package authentication
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 
 	"github.com/Azure/go-autorest/autorest/adal"

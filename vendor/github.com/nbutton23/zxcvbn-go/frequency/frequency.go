@@ -2,7 +2,7 @@ package frequency
 
 import (
 	"encoding/json"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/nbutton23/zxcvbn-go/data"
 )

@@ -2,7 +2,7 @@ package trafficmanager
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"regexp"
 	"time"
 

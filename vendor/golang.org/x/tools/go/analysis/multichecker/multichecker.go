@@ -10,7 +10,7 @@ package multichecker
 import (
 	"flag"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"path/filepath"
 	"strings"

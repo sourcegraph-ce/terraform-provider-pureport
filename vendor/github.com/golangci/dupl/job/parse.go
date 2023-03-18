@@ -1,7 +1,7 @@
 package job
 
 import (
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/golangci/dupl/syntax"
 	"github.com/golangci/dupl/syntax/golang"

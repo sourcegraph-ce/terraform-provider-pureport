@@ -2,7 +2,7 @@ package azure
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net"
 	"regexp"
 	"strings"
