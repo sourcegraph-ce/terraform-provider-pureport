@@ -3,7 +3,7 @@ package relay
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/services/relay/mgmt/2017-04-01/relay"

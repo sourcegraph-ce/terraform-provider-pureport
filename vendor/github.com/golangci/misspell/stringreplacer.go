@@ -6,7 +6,7 @@ package misspell
 
 import (
 	"io"
-	//	"log"
+	//	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 )
 

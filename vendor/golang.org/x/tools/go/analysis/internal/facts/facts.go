@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"go/types"
 	"io/ioutil"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 	"sort"
 	"sync"

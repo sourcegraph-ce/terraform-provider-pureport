@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"regexp"
 	"strconv"
 	"strings"

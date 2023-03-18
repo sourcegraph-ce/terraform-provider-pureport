@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/codebuild"

@@ -3,7 +3,7 @@ package apimanagement
 import (
 	"fmt"
 	"html"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/services/apimanagement/mgmt/2018-01-01/apimanagement"

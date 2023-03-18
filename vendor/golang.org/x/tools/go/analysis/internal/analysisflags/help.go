@@ -3,7 +3,7 @@ package analysisflags
 import (
 	"flag"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"sort"
 	"strings"

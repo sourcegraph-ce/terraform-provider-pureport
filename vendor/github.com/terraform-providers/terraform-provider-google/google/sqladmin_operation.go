@@ -3,7 +3,7 @@ package google
 import (
 	"bytes"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 
 	sqladmin "google.golang.org/api/sqladmin/v1beta4"
 )

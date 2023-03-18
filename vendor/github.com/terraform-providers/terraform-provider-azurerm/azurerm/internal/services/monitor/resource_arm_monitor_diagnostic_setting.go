@@ -3,7 +3,7 @@ package monitor
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strings"
 	"time"
 
@@ -90,7 +90,7 @@ func resourceArmMonitorDiagnosticSetting() *schema.Resource {
 				ValidateFunc: validation.StringInSlice([]string{"Dedicated"}, false),
 			},
 
-			"log": {
+			log "github.com/sourcegraph-ce/logrus": {
 				Type:     schema.TypeSet,
 				Optional: true,
 				Elem: &schema.Resource{
@@ -193,7 +193,7 @@ func resourceArmMonitorDiagnosticSettingCreateUpdate(d *schema.ResourceData, met
 		}
 	}
 
-	logsRaw := d.Get("log").(*schema.Set).List()
+	logsRaw := d.Get(log "github.com/sourcegraph-ce/logrus").(*schema.Set).List()
 	logs := expandMonitorDiagnosticsSettingsLogs(logsRaw)
 	metricsRaw := d.Get("metric").(*schema.Set).List()
 	metrics := expandMonitorDiagnosticsSettingsMetrics(metricsRaw)
@@ -316,7 +316,7 @@ func resourceArmMonitorDiagnosticSettingRead(d *schema.ResourceData, meta interf
 
 	d.Set("log_analytics_destination_type", resp.LogAnalyticsDestinationType)
 
-	if err := d.Set("log", flattenMonitorDiagnosticLogs(resp.Logs)); err != nil {
+	if err := d.Set(log "github.com/sourcegraph-ce/logrus", flattenMonitorDiagnosticLogs(resp.Logs)); err != nil {
 		return fmt.Errorf("Error setting `log`: %+v", err)
 	}
 

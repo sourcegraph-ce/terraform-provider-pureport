@@ -3,7 +3,7 @@ package google
 import (
 	"context"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"cloud.google.com/go/bigtable"

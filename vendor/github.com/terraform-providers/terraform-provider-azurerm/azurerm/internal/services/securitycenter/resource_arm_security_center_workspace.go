@@ -2,7 +2,7 @@ package securitycenter
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/services/preview/security/mgmt/v1.0/security"

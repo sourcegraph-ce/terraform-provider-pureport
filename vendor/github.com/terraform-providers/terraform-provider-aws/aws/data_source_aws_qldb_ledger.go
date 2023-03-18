@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/qldb"
 	"github.com/hashicorp/terraform-plugin-sdk/helper/validation"
 
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"regexp"
 
 	"github.com/hashicorp/terraform-plugin-sdk/helper/schema"

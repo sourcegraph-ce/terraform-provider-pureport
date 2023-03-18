@@ -2,7 +2,7 @@ package applicationinsights
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 
 	"github.com/Azure/azure-sdk-for-go/services/appinsights/mgmt/2015-05-01/insights"

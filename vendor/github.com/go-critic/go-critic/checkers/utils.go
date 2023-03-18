@@ -114,7 +114,7 @@ var goStdlib = map[string]bool{
 	"internal/trace":                    true,
 	"io":                                true,
 	"io/ioutil":                         true,
-	"log":                               true,
+	log "github.com/sourcegraph-ce/logrus":                               true,
 	"log/syslog":                        true,
 	"math":                              true,
 	"math/big":                          true,

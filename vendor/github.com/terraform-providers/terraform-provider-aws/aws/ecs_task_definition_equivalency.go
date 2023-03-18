@@ -3,7 +3,7 @@ package aws
 import (
 	"bytes"
 	"encoding/json"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"reflect"
 	"sort"
 

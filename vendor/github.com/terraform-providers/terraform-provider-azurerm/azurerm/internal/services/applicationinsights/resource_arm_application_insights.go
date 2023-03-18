@@ -2,7 +2,7 @@ package applicationinsights
 
 import (
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 	"time"
 

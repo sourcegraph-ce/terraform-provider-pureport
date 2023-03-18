@@ -3,7 +3,7 @@ package aws
 import (
 	"errors"
 	"fmt"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strconv"
 
 	"github.com/aws/aws-sdk-go/aws"
